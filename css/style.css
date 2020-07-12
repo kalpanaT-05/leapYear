@@ -110,10 +110,10 @@ a:hover{
 
   .design_1{
     top:0;
-    border-bottom-left-radius:200px;
-    border-bottom-right-radius:200px;
+    border-bottom-left-radius:150px;
+    border-bottom-right-radius:150px;
     left:0;
-    height:300px;
+    height:250px;
     width:400px;
   }
 
@@ -125,12 +125,25 @@ a:hover{
   }
   
   .heading_section{
-  padding-top:600px;
+    padding-top:600px;
+  }
+  
+  h3{
+    color:#333;
+  }
+  
+  .footer_section:{
+    margin-top:20px;
+  }
+  
+  .footer_section span{
+    font-size:11px;
+    color:#ccc;
   }
 }
 
 
-@media screen and (min-width: 350px){
+/* @media screen and (min-width: 350px){
   .design_2{
     z-index:-1;
     right:100px;
@@ -150,3 +163,4 @@ a:hover{
     color:#ccc;
   }
 }
+ */
