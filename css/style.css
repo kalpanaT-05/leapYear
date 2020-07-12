@@ -114,13 +114,14 @@ a:hover{
     border-bottom-right-radius:200px;
     left:0;
     height:300px;
-    width:600px;
+    width:400px;
   }
 
   .design_2{
     z-index:-1;
-    right:130px;
+    right:110px;
     bottom:0;
+    position:fixed;
   }
   
   .heading_section{
