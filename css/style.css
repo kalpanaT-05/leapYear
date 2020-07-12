@@ -100,11 +100,26 @@ a:hover{
   column-rule: #333;
 }
 
-@media screen and (min-width: 350px){
-  /* h3{
-    padding-top:12px;
-  } */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  body{
+    margin:auto;
+    width:100%;
+    height:100%;
+  }
 
+  .design_1{
+    bottom:600px;
+    border-bottom-left-radius:100%;
+    border-bottom-right-radius:100%;
+  }
+
+  .design_2{
+    z-index:-1;
+    right:130px;
+  }
+}
+
+@media screen and (min-width: 350px){
   .design_2{
     z-index:-1;
     right:100px;
