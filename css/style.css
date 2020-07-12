@@ -25,13 +25,13 @@ h1{
 
 .design_1{
   background-color:#deecff;
-  border-bottom-right-radius:80%;
-  border-bottom-left-radius:80%;
+  border-bottom-right-radius:300px;
+  border-bottom-left-radius:300px;
   position:absolute;
-  height:500px;
+  height:280px;
   left:0;
-  bottom:400px;
-  width:500px;
+  top:0;
+  width:560px;
   z-index:-1;
 }
 
@@ -98,9 +98,7 @@ a{
 a:hover{
   text-decoration:none;
   column-rule: #333;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
+}@media only screen and (min-width: 320px) and (max-width: 480px){
   body{
     margin:auto;
     width:100%;
@@ -108,9 +106,9 @@ a:hover{
   }
 
   .design_1{
-    bottom:600px;
-    border-bottom-left-radius:100%;
-    border-bottom-right-radius:100%;
+    top:0;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
   }
 
   .design_2{
@@ -118,6 +116,7 @@ a:hover{
     right:130px;
   }
 }
+
 
 @media screen and (min-width: 350px){
   .design_2{
