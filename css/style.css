@@ -1,0 +1,125 @@
+*{
+  box-sizing:border-box;
+  margin:auto;
+}
+
+body{
+  font-family:'Roboto Mono', monospace;
+  background-color:#f3f8ff;
+  text-align:center;
+}
+
+h3{
+  letter-spacing:4px;
+  line-height:0.98;
+  color:#ccc;
+  margin-top:12px;
+}
+
+h1{
+  color:grey;
+  font-weight:bold;
+  line-height:1.5;
+  letter-spacing:10px;
+}
+
+.design_1{
+  background-color:#deecff;
+  border-bottom-right-radius:80%;
+  border-bottom-left-radius:80%;
+  position:absolute;
+  height:500px;
+  left:0;
+  bottom:400px;
+  width:500px;
+  z-index:-1;
+}
+
+.design_2{
+  background-color:#e8d3ff;
+  border-top-left-radius:110px;
+  border-top-right-radius:110px;
+  border-bottom:0;
+  height:100px;
+  width:200px;
+  position:absolute;
+  right:300px;
+  bottom:0;
+}
+
+.heading_section{
+  padding-top:180px;
+  margin:auto;
+}
+
+.card_leap{
+  align-items:center;
+  display:inline-block;
+}
+
+.year, .calc{
+  text-align:center;
+  line-height:1.5;
+  letter-spacing:4px;
+}
+
+.calc_year{
+  padding-top:12px;
+  padding-bottom:8px;
+}
+
+.outside_year, .display{
+  padding-top:12px;
+}
+
+.display{
+  margin-top:20px;
+}
+
+.footer_section{
+  padding-top:100px;
+}
+
+.footer_section span{
+  font-size:12px;
+  color:#ccc;
+}
+
+.heart{
+  height:22px;
+  width:22px;
+}
+
+a{
+  text-decoration:none;
+  color:#ccc;
+}
+
+a:hover{
+  text-decoration:none;
+  column-rule: #333;
+}
+
+@media screen and (min-width: 350px){
+  /* h3{
+    padding-top:12px;
+  } */
+
+  .design_2{
+    z-index:-1;
+    right:100px;
+  }
+
+  .heading_section{
+    padding-top:200px;
+  }
+
+  .footer_section{
+    margin-top:11px;
+  }
+
+  .footer_section span{
+    font-size:11px;
+    color:#ccc;
+  }
+}

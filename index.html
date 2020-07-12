@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="icon" href="year-icon.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Leap Year Detection</title>
+  </head>
+  <body>
+    <div class="design_1"></div>
+    <div class="design_2"></div>
+
+    <div class="card_leap">
+
+      <div class="heading_section">
+        <h1>LEAP YEAR</h1>
+      </div> <!-- end of .heading_section -->
+
+      <hr>
+
+      <div class="outside_year">
+        <input class="form-control year" id="year" type="text" placeholder="Year">
+      </div> <!-- end of .outside_year -->
+
+      <hr>
+
+      <div class="calc_year">
+        <button type="submit" class="btn btn-outline-primary calc" id="calculate" onclick="isLeap();">Calculate</button>
+      </div> <!-- end of .calc_year -->
+
+    </div> <!-- end of .card_leap -->
+
+    <!-- <div class="display"> -->
+      <h3 id="leap_year"></h3>
+    <!-- </div> <!-- end of .display --> 
+
+    <footer class="footer_section">
+      <span>&copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script> made with <img src="https://img.icons8.com/emoji/48/000000/red-heart.png" class="heart"/> by <a href="https://github.com/kalpanaT-05">Kalpana</a></span>
+    </footer>
+
+    <script src="script/index.js" charset="utf-8"></script>
+  </body>
+</html>
