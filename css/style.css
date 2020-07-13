@@ -109,13 +109,14 @@ a:hover{
 
 
   .design_1{
+    position:fixed;
     top:0;
     border-bottom-left-radius:200px;
     border-bottom-right-radius:200px;
     left:0;
     right:0;
-    height:280px;
-    width:370px;
+    height:250px;
+    width:350px;
   }
 
   .design_2{
