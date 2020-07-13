@@ -116,12 +116,12 @@ a:hover{
     left:0;
     right:0;
     height:230px;
-    width:360px;
+    width:370px;
   }
 
   .design_2{
     z-index:-1;
-    right:110px;
+    right:95px;
     bottom:0;
     position:fixed;
   }
