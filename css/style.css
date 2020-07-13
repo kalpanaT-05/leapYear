@@ -110,11 +110,11 @@ a:hover{
 
   .design_1{
     top:0;
-    border-bottom-left-radius:150px;
-    border-bottom-right-radius:150px;
+    border-bottom-left-radius:200px;
+    border-bottom-right-radius:200px;
     left:0;
     height:300px;
-    width:350px;
+    width:370px;
   }
 
   .design_2{
