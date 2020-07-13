@@ -114,12 +114,12 @@ a:hover{
     border-bottom-right-radius:150px;
     left:0;
     height:250px;
-    width:500px;
+    width:600px;
   }
 
   .design_2{
     z-index:-1;
-    right:110px;
+    right:100px;
     bottom:0;
     position:fixed;
   }
@@ -133,7 +133,7 @@ a:hover{
   }
   
   .footer_section:{
-    margin-top:20px;
+    margin-top:32px;
   }
   
   .footer_section span{
